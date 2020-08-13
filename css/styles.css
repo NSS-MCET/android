@@ -1,0 +1,181 @@
+/***********************TAG SLECTORS************************/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat-Black', sans-serif;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+/***********************CLASS SELECTORS*********************/
+
+
+/* Contaiers */
+
+.container-fluid {
+    padding: 3% 5%;
+    text-align: center;
+}
+
+
+/* SECTIONS */
+
+.colored-section {
+    background-color: #4153b7;
+    color: #fffff0;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 12px 0 12px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+
+/* Headings */
+
+.big-heading {
+    font-size: 3.4rem;
+    font-weight: 900;
+}
+
+.section-heading {
+    font-size: 2.9rem;
+}
+
+
+/* Download-Button */
+
+.download-btn {
+    margin: 40px 2% 3% 0px;
+}
+
+
+/* Title Image */
+
+.title-image {
+    width: 55%;
+    transform: rotate(30deg);
+    margin-left: 100px;
+    position: absolute;
+    right: 20%;
+}
+
+#title .container-fluid {
+    padding: 3% 5% 4%;
+    text-align: left;
+}
+
+
+/* Features */
+
+.icon {
+    color: #3f72af;
+    padding-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #4153b7;
+}
+
+.feature.text {
+    font-size: 1.7rem;
+}
+
+#features {
+    position: relative;
+    background-color: #fff;
+}
+
+
+/* Testimonials */
+
+#testimonials .container-fluid {
+    background-color: #3f72af;
+    color: #eeecda;
+    text-align: left;
+    padding: 2% 15% 2%;
+}
+
+.testimonial-img {
+    margin: 5% 10% 5% 24%;
+    width: 60%;
+    padding: 6% 10%;
+    /* border-radius: 100%; */
+}
+
+.testimonial-text {
+    font-size: 2.5rem;
+    margin: 20% 3% 10%;
+}
+
+
+/* Press Section */
+
+.press-img {
+    width: 14%;
+    margin: 21px 21px 50px;
+    padding-bottom: 2%;
+}
+
+
+/* Developers Section */
+
+.price-text {
+    font-size: 1.5rem;
+}
+
+.price-heading {
+    font-size: 2rem;
+}
+
+.dev-img {
+    width: 23rem;
+    height: 20rem;
+    /* border-radius: 100%; */
+    padding: 10px 10px;
+}
+
+.footer-img {
+    color: white;
+}
+
+#colophon {
+    background-color: white;
+}
